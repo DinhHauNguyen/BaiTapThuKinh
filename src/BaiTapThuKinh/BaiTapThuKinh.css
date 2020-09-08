@@ -1,0 +1,46 @@
+.background{
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.nav-custom{
+    background-color: rgba(26, 28, 28, 0.5);
+    display: block;
+}
+
+.model{
+    position: relative;
+}
+.thuKinh{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:translate(-50%,-30%);
+}
+.sanPham{
+    padding-top: 30px;
+    width: 100%;
+    background-color:grey;
+    height: 250px;
+}
+.model__info{
+    background-color:rgba(212, 110, 38,0.5);
+    width: 270px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.model__info h3{
+    color: blue;
+}
+.model__info p{
+    font-size: 13px;
+}
+.sanPham-border{
+    height: 60px;
+}
